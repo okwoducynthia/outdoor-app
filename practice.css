@@ -1,0 +1,127 @@
+.main-container {
+  background-color: rgb(245, 245, 245);
+  background-size: cover;
+}
+.quote-paragraph-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.quote-paragraph-div img {
+  width: 7%;
+  /* position: relative;
+  left: -120px; */
+  /* left: -10%; */
+  position: relative;
+  right: 120px
+}
+.quote-paragraph-div h3 {
+  font-size: 22px;
+}
+.quote-paragraph-author {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -23px;
+}
+.upcoming-heading-title {
+  justify-items: center;
+  /* text-align: center; */
+  margin-top: 140px;
+}
+.upcoming-heading-title h1 {
+  font-size: 38px;
+}
+.upcoming-heading-title div {
+  border: 2px solid rgb(230, 49, 79);
+  width: 7%;
+  margin-bottom: 70px;
+}
+.upcoming-section-images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.upcoming-section-images-container div {
+  width: 40%;
+}
+.upcoming-section-images-container div img {
+  width: 95%;
+  box-shadow: 12px 12px 1px rgb(0, 0, 0, 0.1);
+}
+.upcoming-section-images-container div h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.upcoming-section-images-container div p {
+  text-align: center;
+  font-size: 18px;
+  width: 90%;
+}
+.upcoming-section-images-container div button {
+  position: relative;
+  left: 25%;
+  padding: 15px 55px;
+  background-color: rgb(255, 3, 45);
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 80px;
+}
+.upcoming-section-images-container div button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+/* ===MEDIA QUERY===== */
+@media (max-width: 1224px) {
+  .quote-paragraph-div img {
+    position: inherit;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 834px) {
+  .quote-paragraph-div h3 {
+    text-align: center;
+  }
+  .upcoming-section-images-container {
+    flex-direction: column;
+  }
+  .upcoming-section-images-container div {
+    width: 90%;
+  }
+  .upcoming-section-images-container div button {
+    /* position: relative;
+    left: 33%; */
+    /* position: inherit;
+    margin-left: 230px; */
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .quote-paragraph-div img {
+    width: 20%;
+    margin-left: 40px;
+    margin-bottom: 35px;
+  }
+  .upcoming-heading-title {
+    margin-top: 90px;
+  }
+  .upcoming-heading-title div {
+    width: 20%;
+  }
+  .upcoming-section-images-container div button {
+    position: inherit;
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,123 @@
+/* =======CSS VARIABLES======= */
+:root {
+  /* ===FONT COLOR=== */
+--first-color: white;
+--second-color: orange;
+--third-color: yellow;
+--background: black;
+
+/* ====FONT SIZES=== */
+--small-size: 18px;
+--medium-size: 25px;
+--big-size: 45px;
+
+
+/* ====FONT FAMILY==== */
+
+}
+
+/* ===FIRST SECTION===== */
+.header-nav-section {
+  background-image: url(images/new.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.mason-leblanc-heading {
+  color: var(--second-color);
+  text-align: center;
+  font-family: "Dancing Script", sans-serif;
+  font-size: var(--medium-size);
+  padding-top: 10px;
+}
+
+.navbar-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navbar-section li a {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.face-image-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.face-image-header {
+  height: 50%;
+  width: 40%;
+}
+
+.fashion-industry-heading {
+  color: var(--second-color);
+  font-size: var(--big-size);
+  font-family: "Dancing Script", sans-serif;
+  text-align: center;
+  margin-top: 170px;
+}
+
+/* ====SECOND SECTION==== */
+.images-section {
+  background: var(--background);
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.images-section div img{
+  width: 80%;
+  height: 50vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.images-section div h5{
+  margin-top: -100px;
+  margin-bottom: 120px;
+}
+
+.images-section div h5 a {
+  color: var(--second-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ====THIRD SECTION==== */
+.lorem-paragraph {
+  background-image: url(testpic_files/2151114217.jpg);
+  width: 100%;
+  height: 85vh;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.lorem-paragraph p {
+  color: var(--first-color);
+  max-width: 60%; 
+  margin: auto;
+  font-size: var(--small-size);
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+
+.read-full-bio {
+  margin-left: 265px;
+  color: white;
+  font-size: var(--medium-size);
+}
+
+.icons-div {
+  display:flex;
+  flex-direction: column;
+  color: var(--first-color);
+  justify-content: space-between; 
+}
