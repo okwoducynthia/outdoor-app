@@ -10,8 +10,8 @@
   --background-color: rgb(243, 243, 243);
   --background-color2: #f6f8f5;
 
-  --dm-sans-font-family:  "DM Sans", sans-serif;
-  --forum-font-family: "Forum", serif
+  --dm-sans-font-family: "DM Sans", sans-serif;
+  --forum-font-family: "Forum", serif;
 }
 
 /* ====NAVBAR SECTION==== */
@@ -60,7 +60,7 @@
   background-position: center;
   background-size: cover;
   align-content: center;
-  justify-items: center;  
+  justify-items: center;
   color: white;
 }
 .hero-section h3 {
@@ -92,13 +92,13 @@
   cursor: pointer;
   transition: background-color 0.15s ease;
 }
-.hero-section button:hover{
+.hero-section button:hover {
   background-color: rgb(233, 166, 41);
 }
 /* =======HERO SECTION ENDS HERE========= */
 
 /* ======IMAGE SECTION STARTS HERE======== */
-.images-display{
+.images-display {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -110,7 +110,7 @@
   font-family: var(--dm-sans-font-family);
   font-size: 40px;
   color: rgb(61, 102, 61);
-  margin-top: 60px; 
+  margin-top: 60px;
 }
 
 .div-divider {
@@ -148,7 +148,7 @@
 
 /* =======QUOTE SECTION STARTS HERE======= */
 .quote-section {
-  background-color:var(--background-color2);
+  background-color: var(--background-color2);
   height: 60vh;
 }
 
@@ -165,7 +165,7 @@
   margin-top: 80px;
   padding-top: 70px;
   padding-bottom: 35px;
-  width: 35px
+  width: 35px;
 }
 
 .quote-section h2 {
@@ -173,7 +173,7 @@
   text-align: center;
   font-size: xx-large;
   font-family: var(--forum-font-family);
-  font-weight: lighter;  
+  font-weight: lighter;
   padding-bottom: 30px;
   max-width: 50%;
   margin: auto;
@@ -188,7 +188,7 @@
 .avatar-img {
   margin: auto;
   width: 50px;
-  height: 50px;  
+  height: 50px;
 }
 
 .quote-section p {
@@ -215,7 +215,7 @@
   font-family: var(--font-family);
   font-size: 13px;
   color: var(--light-gray-color2);
-  margin-bottom: 17px
+  margin-bottom: 17px;
 }
 
 .about-us-description h1 {
@@ -260,13 +260,13 @@
 .question-section {
   background-image: url(images/footer-hero-mobile.jpg);
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   /* background-attachment: fixed; */
   background-size: cover;
   align-content: center;
   justify-items: center;
   width: 100%;
-  height: 70vh;  
+  height: 70vh;
 }
 .question-div {
   text-align: center;
@@ -296,7 +296,7 @@
   border: none;
   background-color: rgb(255, 217, 54);
 }
-.question-div button:hover{
+.question-div button:hover {
   background-color: rgb(233, 166, 41);
 }
 
@@ -310,7 +310,7 @@
   height: 17vh;
 }
 .footer-section div {
-  width: 20%
+  width: 20%;
 }
 .navlink-footer {
   display: flex;
@@ -324,8 +324,8 @@
   color: var(--light-grey-color);
 }
 .footer-section div img {
- max-width: 60px;
- margin-left: 100px;
+  max-width: 60px;
+  margin-left: 100px;
 }
 .footer-section div p {
   font-family: var(--dm-sans-font-family);
@@ -334,9 +334,8 @@
 }
 /* ======FOOTER SECTION ENDS HERE======== */
 
-
 /* =====MEDIA QUERY STARTS HERE======== */
-@media (max-width:1224px){
+@media (max-width: 1224px) {
   .images-section div {
     display: flex;
     align-items: center;
@@ -344,9 +343,9 @@
     width: 33%;
   }
   .images-section div img {
-    width: 80%
+    width: 80%;
   }
-  .about-us-section{
+  .about-us-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -354,19 +353,22 @@
   .about-us-section div {
     width: 45%;
     margin: 70px 0;
-  } 
+  }
   .about-us-description h1 {
     font-size: 32px;
-  }  
+  }
+  .heading-title {
+    position: relative;
+    left: -21%;
+  }
 }
 
-
-@media (max-width:834px){
+@media (max-width: 834px) {
   .navlinks-div {
     display: none;
   }
   .scroll-bar-icon {
-    display:block;
+    display: block;
     color: white;
   }
   .images-section {
@@ -378,12 +380,12 @@
     align-items: center;
     width: 100%;
   }
-  .images-section div img{
+  .images-section div img {
     width: 92%;
   }
-  .heading-title{
+  .heading-title {
     position: relative;
-    right: 150px;
+    left: -37%;
     margin-top: 20px;
   }
   .heading-description {
@@ -391,7 +393,7 @@
     position: relative;
     right: 30px;
   }
-  .quote-section{
+  .quote-section {
     height: 55vh;
   }
   .quote-section h2 {
@@ -406,10 +408,10 @@
   }
   .about-us-section div img {
     display: none;
-  } 
+  }
   .about-us-description h1 {
     font-size: 30px;
-  } 
+  }
   .footer-section div {
     width: 100%;
     display: flex;
@@ -417,8 +419,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-  } 
-  .navlink-footer{
+  }
+  .navlink-footer {
     flex-direction: column;
   }
   .footer-section div img {
@@ -431,15 +433,12 @@
   }
 }
 
-
-@media (max-width:768px){
-  
+@media (max-width: 768px) {
 }
 
-
-@media (max-width:480px){
+@media (max-width: 480px) {
   .hero-section p {
-    width: 50%
+    width: 50%;
   }
   .quote-section {
     height: 100%;
@@ -453,7 +452,7 @@
   }
   .about-us-section div img {
     display: none;
-  }  
+  }
   .about-us-section div {
     width: 100%;
     height: 30vh;
@@ -464,5 +463,9 @@
   }
   .question-div p {
     max-width: 80%;
+  }
+  .heading-title {
+    position: relative;
+    left: -25%;
   }
 }
