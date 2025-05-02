@@ -375,9 +375,7 @@
     margin-bottom: -70px;
   }
   .images-section div {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
   }
   .images-section div img {
@@ -385,7 +383,7 @@
   }
   .heading-title {
     position: relative;
-    left: -37%;
+    left: -20%;
     margin-top: 20px;
   }
   .heading-description {
@@ -466,6 +464,6 @@
   }
   .heading-title {
     position: relative;
-    left: -25%;
+    left: -20%;
   }
 }
