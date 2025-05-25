@@ -445,6 +445,9 @@
     font-weight: lighter;
     line-height: 35px;
   }
+  .about-us-section {
+    padding-bottom: 60px;
+  }
   .about-us-section div img {
     display: none;
   }
@@ -456,7 +459,7 @@
     font-size: 30px;
   }
   .question-section {
-    height: 50vh;
+    height: 65vh;
     margin-top: 14px;
   }
   .question-div p {
