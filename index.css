@@ -45,6 +45,7 @@
   border: 1px solid white;
   padding: 15px 37px 15px 37px;
   border-radius: 6px;
+  cursor: pointer;
   color: white;
 }
 .scroll-bar-icon {
@@ -55,7 +56,8 @@
 
 /* ====HERO SECTION STARTS HERE==== */
 .hero-section {
-  background-image: url("images/indexpic.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
+    url("images/indexpic.jpeg");
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -150,33 +152,29 @@
 /* =======QUOTE SECTION STARTS HERE======= */
 .quote-section {
   background-color: var(--background-color2);
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  margin-top: 60px;
   height: 65vh;
 }
 
 .quote-section-image img {
   width: 100%;
-  height: 100%;
 }
 
-/* ===diplay flex does not work well with width so when you want to center align using width property use margin auto instead of justify content/align item with flex display=== */
 .quote-section-image {
-  margin: auto;
   opacity: 0.3;
-  margin-top: 80px;
-  padding-top: 70px;
-  padding-bottom: 35px;
   width: 35px;
 }
 
 .quote-section h2 {
   color: var(--light-grey-color);
-  text-align: center;
   font-size: xx-large;
   font-family: var(--forum-font-family);
   font-weight: lighter;
   padding-bottom: 30px;
   width: 50%;
-  margin: auto;
 }
 
 .avatar-img img {
@@ -184,14 +182,12 @@
 }
 
 .avatar-img {
-  margin: auto;
   width: 50px;
   height: 50px;
 }
 
 .quote-section p {
   color: var(--light-grey-color);
-  text-align: center;
   padding-top: 12px;
 }
 
@@ -304,11 +300,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  gap: 50px;
   height: 17vh;
 }
 .footer-section div {
   width: 20%;
+  text-align: center;
 }
 .navlink-footer {
   display: flex;
@@ -323,7 +319,6 @@
 }
 .footer-section div img {
   width: 60px;
-  margin-left: 100px;
 }
 .footer-section div p {
   font-family: var(--dm-sans-font-family);
@@ -380,12 +375,11 @@
     margin-bottom: 50px;
   }
   .quote-section {
-    height: 85vh;
+    margin-top: 60px;
   }
   .quote-section h2 {
     font-size: 25px;
-    max-width: 100%;
-    align-items: center;
+    width: 80%;
   }
   .about-us-section div {
     width: 100%;
@@ -398,28 +392,17 @@
   .about-us-description h1 {
     font-size: 30px;
   }
-  .footer-section div {
-    width: 100%;
-    display: flex;
+  .footer-section {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
+    height: 55vh;
+  }
+  .footer-section div {
+    width: 90%;
   }
   .navlink-footer {
     flex-direction: column;
+    gap: 10px;
   }
-  .footer-section div img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
-  }
-  .footer-section div p {
-    margin-top: -90px;
-  }
-}
-
-@media (max-width: 800px) {
 }
 
 @media (max-width: 480px) {
@@ -441,8 +424,6 @@
   }
   .quote-section h2 {
     font-size: 22px;
-    max-width: 95%;
-    font-weight: lighter;
     line-height: 35px;
   }
   .about-us-section {
@@ -464,5 +445,8 @@
   }
   .question-div p {
     max-width: 80%;
+  }
+  .footer-section {
+    height: 100%;
   }
 }
