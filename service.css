@@ -56,7 +56,7 @@
 /* ===NAVBAR ENDS HERE==== */
 
 /* ==HERO SECTION STARTS HERE== */
-.Hero-about {
+.Hero-service {
   background-image: linear-gradient(rgba(0, 0, 0, 0.295)),
     url("images/ales-krivec-N-aTikX-b00-unsplash.jpg");
   height: 70vh;
@@ -68,7 +68,7 @@
   color: white;
 }
 
-.Hero-about div h1 {
+.Hero-service div h1 {
   font-size: 50px;
   font-family: var(--dm-sans-font-family);
   font-weight: 500;
